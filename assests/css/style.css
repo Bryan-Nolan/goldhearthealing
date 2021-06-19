@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto+Slab&display=swap');
 
+/*
 *{
     margin: 0;
     padding: 0;
     border: none;
 }
-
+*/
 body{
-    font-family: Lato, sans-serif;
+    font-family: Roboto Slab, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -15,4 +16,37 @@ body{
 #logo {
     font-family: Balsamiq Sans, sans-serif;
     color: gold;
+}
+
+#goldheart {
+    height 700px;
+    width: 620px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#services-menu {
+	padding: 1rem 0;
+	margin-bottom: 80px;
+	background-image: url('../images/sky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#services-menu ul{
+    list-style-image: url(../images/goldheartsmall.png);
+    font-size: 32px;
+    color: gold;
+    text-align: justify;
+    display: inline-block;    
+}
+
+#services-box{
+    display:inline-block;
+    vertical-align: top;
+    width:30%;
+    padding-right:10px;
 }
