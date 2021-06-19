@@ -14,19 +14,24 @@
 
 <body>
     <header class="page-header text-left" id="home">
-        <h1 id="logo">Gold Heart Healing</h1>
-        <P>Healing through love and light</P>
+        <a href="index.html">
+            <h1 id="logo">Gold Heart Healing</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Sign Up</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <nav class="black-background text-center text-uppercase">
-		<a href="#home" aria-label="Go to the top of the page">Home</a>
-		<a href="#services" aria-label="Go to services menu section">Services Menu</a>
-        <a href="#contact" aria-label="Go to contact information section">Contact</a>
-		<a href="form.html" aria-label="Fill in our survey for your chance to win free card reading">Win Free Reading</a>
-        
-	</nav>
-
-    
+   
     <section id="services-menu">
         <div id="services-left" class="services-box">
             <ul>
@@ -36,12 +41,12 @@
                 <li>Oracle Card Readings</li>                
             </ul>
         </div>
-        
-        <div>
-            <img src="./assests/images/Golden-Heart-PNG-Clipart.png" alt="Gold Heart" id="goldheart">
+
+        <div class="services-box"  id="goldheart">
+            <img src="./assests/images/Golden-Heart-PNG-Clipart.png" alt="Gold Heart" width = "75%" height = "auto">
         </div>
         
-        <div id="services-left" class="services-box">
+        <div id="services-right" class="services-box">
             <ul>
                 <li>Numerology</li>
                 <li>Feng Shui</li>
