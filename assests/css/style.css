@@ -15,7 +15,6 @@ header{
 body{
     font-family: Roboto Slab, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
 }
 
 #logo {
@@ -60,12 +59,6 @@ body{
 
 /* Main Page Image*/
 
-#goldheart {
-    width: 33%;  
-    height: auto;  
-    margin: 0 auto;  
-}
-
 #services-menu {
     height: 600px;
 	padding: 1rem 0;
@@ -77,19 +70,73 @@ body{
 }
 
 #services-menu ul{
-    list-style-image: url(../images/goldheartsmall.png);
-    font-size: 32px;
+    list-style: none;
+    line-height: 40px;
     color: gold; 
 }
 
+#services-left-content li{
+    font-size: 200%;
+    background: url(../images/goldheartsmall.png) left center no-repeat; 
+    padding-left: 40px; 
+    padding-top: 10px;
+}
+
+#services-right-content li{
+    text-align: right;
+    font-size: 200%;
+    background: url(../images/goldheartsmall.png) right center no-repeat; 
+    padding-right: 40px; 
+    padding-top: 10px;
+}
+
+#services-content-link a{
+    text-decoration: none;
+    color: gold;
+}
+
+#services-content-link a:hover {
+    color: black;
+}
+
 #services-left{
-    padding-top: 30px;
+    padding-top: 200px;
+    padding-left: 10px;
     width: 33%;
     float: left;
 }
 
 #services-right{
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 200px;
+    padding-right: 30px;
+    width: 40%;
     float: right;
+}
+
+
+#services-left-content{
+    width: 90%;
+    float: right;
+    line-height: 50px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#services-right-content {
+    width: 90%;
+    float: left;
+    line-height: 50px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#goldheart-image-container{
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    margin: 0 auto;
+}
+#goldheart-image {
+    background: url('../images/Golden-Heart-PNG-Clipart1.png') no-repeat center center;
+    height: 100%;    
 }
