@@ -1,2 +1,2 @@
-! Gold Heaert Healing Website
+!Gold Heart Healing Website
 
