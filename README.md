@@ -1,2 +1,2 @@
-Gold Hwaert Healing Website
+! Gold Heaert Healing Website
 
