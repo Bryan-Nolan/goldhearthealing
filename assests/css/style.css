@@ -7,7 +7,7 @@
     border: none;
 }
 
-
+/*  Headers */ 
 header{
     height: 75px;
     background-color: navy;
@@ -57,17 +57,18 @@ body{
     border-bottom: 1px solid gold;
 }
 
-/* Main Page Image */
+/* Main Page Services Navigation */
 
 #services-menu {
-    height: 600px;
+    height: 1000px;
 	padding: 1rem 0;
-	margin-bottom: 80px;
+	margin-bottom: 0;
 	background-image: url('../images/sky.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
     color: gold;
+
 }
 
 #services-menu ul{
@@ -151,6 +152,37 @@ body{
     height: 100%;    
 }
 
+/* About Section*/
+
+#about{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px navy solid;
+    width: 90%;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    color: navy;
+
+}
+
+#about h2{
+    font-family: Balsamiq Sans, sans-serif;
+    float: none;
+    text-align: center;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#about ul{
+    font-size: 150%;
+    line-height: 40px;
+    list-style: none;
+    line-height: 25px;
+}
+
+#about li{
+    margin-bottom: 5px;
+}
 
 /*  Footer*/
 
@@ -160,7 +192,7 @@ footer{
 }
 
 .social-networks{
-    text-align: center;
+    text-align: right;
 }
 
 .social-networks li{
