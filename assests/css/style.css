@@ -9,6 +9,7 @@
 
 /*  Headers */ 
 header{
+    position: fixed;
     height: 75px;
     margin-left: 5%;
     width: 90%;
@@ -63,7 +64,7 @@ body{
 
 #services-menu {
     height: 1100px;
-	padding: 1rem 0;
+    padding-top: 90px;
     margin-left: 5%;
     width: 90%;
 	margin-bottom: 0;
@@ -190,8 +191,10 @@ body{
 /*  Footer*/
 
 footer{
+    position: fixed;
+    bottom: 0;
     background-color: #02075d;
-    height: 75px;
+    height: 90px;
     margin-left: 5%;
     width: 90%;
 }
@@ -209,4 +212,32 @@ footer{
     margin: 1%;
     padding: 0.5%;
     color: gold;
+}
+
+/* Services Page*/
+
+aside {
+    padding-top: 80px;
+    position: fixed;
+    float: left;
+    margin-left: 7%;
+    width: 20%;
+}
+
+aside li {
+    list-style: none;
+}
+
+.services {
+    padding-top: 80px;
+    float: right;
+    margin-right: 5%;
+    width: 70%;
+    height: auto;
+}
+
+.services div {
+    margin-top: 10px;
+    padding: 5px;
+    border: navy solid 5px;
 }
