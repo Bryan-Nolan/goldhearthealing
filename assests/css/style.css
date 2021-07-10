@@ -20,7 +20,7 @@ body{
     font-weight: 300;
 }
 
-#logo {
+.logo {
     font-family: Balsamiq Sans, sans-serif;
     color: gold;
     float: left;
@@ -29,29 +29,29 @@ body{
 }
 
 /* navigation links */
-#menu {
+.menu {
     color: gold;
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo{
+.menu, .logo{
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style: none;
     margin-right: 30px;
 }
 
-#menu a{
+.menu a{
     text-decoration: none;
     color: gold;
 
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid gold;
 }
 
