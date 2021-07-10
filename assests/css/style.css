@@ -10,6 +10,8 @@
 /*  Headers */ 
 header{
     height: 75px;
+    margin-left: 5%;
+    width: 90%;
     background-color: navy;
 }
 body{
@@ -60,8 +62,10 @@ body{
 /* Main Page Services Navigation */
 
 #services-menu {
-    height: 1000px;
+    height: 1100px;
 	padding: 1rem 0;
+    margin-left: 5%;
+    width: 90%;
 	margin-bottom: 0;
 	background-image: url('../images/sky.jpg');
 	background-repeat: no-repeat;
@@ -75,12 +79,14 @@ body{
     list-style: none;
     line-height: 25px;
     color: gold; 
+
 }
 
 #services-left-content h2 {
     font-size: 175%;
     padding-left: 40px; 
     padding-top: 10px;
+    
 }
 
 #services-left-content li{
@@ -112,17 +118,19 @@ body{
 }
 
 #services-left{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 10px;
-    width: 33%;
+    width: 30%;
     float: left;
+    border: 5px navy solid;
 }
 
 #services-right{
-    padding-top: 200px;
-    padding-right: 30px;
-    width: 40%;
+    padding-top: 100px;
+    padding-right: 10px;
+    width: 30%;
     float: right;
+    border: 5px navy solid;
 }
 
 #services-left-content{
@@ -142,8 +150,9 @@ body{
 }
 
 #goldheart-image-container{
-    width: 600px;
-    height: 600px;
+    width: 520px;
+    height: 480px;
+    border: 5px navy solid;
     padding: 0;
     margin: 0 auto;
 }
@@ -157,6 +166,7 @@ body{
 #about{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 10px;
     border: 5px navy solid;
     width: 90%;
     padding: 5px 10px 5px 10px;
@@ -181,14 +191,17 @@ body{
 }
 
 #about li{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    color: navy;
 }
 
 /*  Footer*/
 
 footer{
     background-color: navy;
-    height: 150px;
+    height: 75px;
+    margin-left: 5%;
+    width: 90%;
 }
 
 .social-networks{
@@ -202,6 +215,6 @@ footer{
 .social-networks i{
     font-size: 300%;
     margin: 1%;
-    padding: 5%;
+    padding: 0.5%;
     color: gold;
 }
