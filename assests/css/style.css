@@ -12,7 +12,7 @@ header{
     height: 75px;
     margin-left: 5%;
     width: 90%;
-    background-color: navy;
+    background-color: #02075d;
 }
 body{
     font-family: Roboto Slab, sans-serif;
@@ -71,61 +71,59 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-    color: gold;
+    color: #02075d;
 
 }
 
 #services-menu ul{
     list-style: none;
     line-height: 25px;
-    color: gold; 
-
 }
 
 #services-left-content h2 {
     font-size: 175%;
-    padding-left: 40px; 
+    padding-left: 10px; 
     padding-top: 10px;
     
 }
 
 #services-left-content li{
-    font-size: 125%;
-    padding-left: 40px; 
+    font-size: 150%;
+    padding-left: 10px; 
     padding-top: 10px;
 }
 
 #services-right-content h2{
     text-align: right;
     font-size: 175%;
-    padding-right: 40px; 
+    padding-right: 10px; 
     padding-top: 10px;
 }
 #services-right-content li{
     text-align: right;
-    font-size: 125%;
-    padding-right: 40px; 
+    font-size: 150%;
+    padding-right: 10px; 
     padding-top: 10px;
 }
 
 #services-content-link a{
     text-decoration: none;
-    color: gold;
+    color: #02075d;
 }
 
 #services-content-link a:hover {
-    color: black;
+    color: #C18F44;
 }
 
 #services-left{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 10px;
     width: 30%;
     float: left;
 }
 
 #services-right{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-right: 10px;
     width: 30%;
     float: right;
@@ -165,7 +163,7 @@ body{
     width: 90%;
     padding: 5px 10px 5px 10px;
     text-align: left;
-    color: navy;
+    color: #02075d;
 
 }
 
@@ -174,7 +172,7 @@ body{
     float: none;
     text-align: center;
     font-size: 280%;
-    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 #about ul{
@@ -186,13 +184,13 @@ body{
 
 #about li{
     margin-bottom: 10px;
-    color: navy;
+    color:#02075d;
 }
 
 /*  Footer*/
 
 footer{
-    background-color: navy;
+    background-color: #02075d;
     height: 75px;
     margin-left: 5%;
     width: 90%;
