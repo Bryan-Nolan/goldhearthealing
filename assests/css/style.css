@@ -118,14 +118,14 @@ body{
 #services-left{
     padding-top: 50px;
     padding-left: 10px;
-    width: 30%;
+    width: 40%;
     float: left;
 }
 
 #services-right{
     padding-top: 50px;
     padding-right: 10px;
-    width: 30%;
+    width: 40%;
     float: right;
 }
 
@@ -146,13 +146,13 @@ body{
 }
 
 #goldheart-image-container{
-    width: 520px;
-    height: 480px;
+    width: 400px;
+    height: 350px;
     padding: 0;
     margin: 0 auto;
 }
 #goldheart-image {
-    background: url('../images/Golden-Heart-PNG-Clipart1.png') no-repeat center center;
+    background: url('../images/Golden-Heart-PNG-Clipart75.png') no-repeat center center;
     height: 100%;    
 }
 
