@@ -246,14 +246,28 @@ aside li {
     height: fit-content;
 }
 
-.services h2 {
+.services-box-right h2 {
     float: right;
 }
 
-.services img {
+.services-box-right img {
    float: left;
    padding: 5px;
    width: 25%;
 }
 
+.services-box-left h2 {
+    float: left;
+}
 
+.services-box-left img {
+   float: right;
+   padding: 5px;
+   width: 25%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
