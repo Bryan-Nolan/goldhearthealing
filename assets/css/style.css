@@ -63,7 +63,7 @@ body{
 /* Main Page Services Navigation */
 
 #services-menu {
-    height: 1100px;
+    height: 150%;
     padding-top: 90px;
     margin-left: 5%;
     width: 90%;
@@ -238,7 +238,7 @@ aside li {
 }
 
 .services div {
-    margin-top: 10px;
+    margin: 10px 5px 10px 5px;
     padding: 5px;    
     border: navy solid 5px;
     border-radius: 15px;
