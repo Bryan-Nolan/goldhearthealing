@@ -9,7 +9,6 @@
 
 /*  Headers */ 
 header{
-    position: fixed;
     height: 75px;
     margin-left: 5%;
     width: 90%;
@@ -30,29 +29,29 @@ body{
 }
 
 /* navigation links */
-.menu {
+.header-nav {
     color: goldenrod;
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-.menu, .logo{
+.header-nav, .logo{
     line-height: 75px;
 }
 
-.menu li {
+.header-nav li {
     float: right;
     list-style: none;
     margin-right: 30px;
 }
 
-.menu a{
+.header-nav a{
     text-decoration: none;
     color: goldenrod;
 
 }
 
-.menu a:hover {
+.header-nav a:hover {
     border-bottom: 1px solid goldenrod;
 }
 
@@ -68,7 +67,7 @@ body{
     padding: 50px 0;
     margin-left: 5%;
     width: 90%;
-	margin-bottom: 0;
+	margin-top: 10px;
 	background-image: url('../images/sky.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -120,14 +119,14 @@ body{
 #services-left{
     padding-top: 50px;
     padding-left: 10px;
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
 #services-right{
     padding-top: 50px;
     padding-right: 10px;
-    width: 40%;
+    width: 30%;
     float: right;
 }
 
@@ -160,7 +159,7 @@ body{
 
 /* About Section*/
 
-.about{
+#about{
     margin: 20px 5% 100px 5%;
     width: 90%;
     padding: 5px 10px 5px 10px;
@@ -168,7 +167,7 @@ body{
 
 }
 
-.about h2{
+#about h2{
     font-family: Balsamiq Sans, sans-serif;
     float: none;
     text-align: center;
@@ -176,7 +175,7 @@ body{
     margin-bottom: 10px;
 }
 
-.about div{
+#about div{
     border: navy solid 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #888888;
