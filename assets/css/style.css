@@ -159,7 +159,7 @@ body{
 
 /* About Section*/
 
-#about{
+.about{
     margin: 20px 5% 0 5%;
     width: 90%;
     padding: 5px 10px 5px 10px;
@@ -168,7 +168,7 @@ body{
 
 }
 
-#about h2{
+.about h2{
     font-family: Balsamiq Sans, sans-serif;
     float: none;
     text-align: center;
@@ -176,16 +176,10 @@ body{
     margin-bottom: 10px;
 }
 
-#about ul{
-    font-size: 150%;
-    line-height: 40px;
-    list-style: none;
-    line-height: 25px;
-}
-
-#about li{
-    margin-bottom: 10px;
-    color:#02075d;
+.about div{
+    border: navy solid 5px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 /*  Footer*/
@@ -197,6 +191,7 @@ footer{
     height: 90px;
     margin-left: 5%;
     width: 90%;
+	z-index: 3;
 }
 
 .social-networks{
