@@ -191,7 +191,7 @@ body{
 
 footer{
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     background-color: #02075d;
     height: 90px;
     margin-left: 5%;
@@ -200,19 +200,26 @@ footer{
 }
 
 .social-networks{
-    text-align: right;
+    text-align: center;
 }
 
 .social-networks li{
     display: inline;
 }
 
+
 .social-networks i{
     font-size: 300%;
     margin: 1%;
-    padding: 0.5%;
+    padding: 1%;
     color: goldenrod;
 }
+
+.social-networks a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
 
 /* Services Page*/
 
@@ -230,10 +237,9 @@ aside li {
 }
 
 .services {
-    padding-top: 80px;
     float: right;
-    margin-right: 5%;
-    width: 70%;
+    margin: 10px 5% 90px 0;
+    width: 60%;
     height: auto;
 }
 
