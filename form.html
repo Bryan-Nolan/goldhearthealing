@@ -32,11 +32,72 @@
         </nav>
     </header>
 
-    <section>
+    <form action="https://formdump.codeinstitute.net" method="POST">
 
-
-
-    </section>
+        <fieldset>
+            <legend>Your details</legend>
+    
+            <div>
+                <label for="name-field" class="block-label">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="email-field" class="block-label">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            </div>
+            <div>
+                <label for="star-sign" class="block-label">What is your star sign?</label>
+                <input id="star-sign" list="signs" name="star-sign" required>
+                    <datalist id="signs">
+                        <option value="Aquarius">
+                        <option value="Pisces">
+                        <option value="Aries">
+                        <option value="Taurus">
+                        <option value="Gemini">
+                        <option value="Cancer">
+                        <option value="Leo">
+                        <option value="Virgo">
+                        <option value="Libra">
+                        <option value="Scorpio">
+                        <option value="Sagittarius">
+                        <option value="Capricorn">
+                    </datalist>
+            </div>
+            
+            <p>Which of our services most interests you?</p>
+    
+                <input id="reiki-radio" name="services" value="reiki" type="radio" required>
+                <label for="reiki-radio">Reiki</label>
+    
+                <input id="crystal-radio" name="services" value="crystal" type="radio" required>
+                <label for="crystal-radio">Crystal Healing</label>
+    
+                <input id="iet-radio" name="services" value="iet" type="radio" required>
+                <label for="iet-radio">Intergrated Energy Therapy</label>
+    
+                <input id="eft-radio" name="services" value="eft" type="radio" required>
+                <label for="eft-radio">Emotional Freedom Techniques</label>
+                
+                <input id="feng-radio" name="services" value="feng" type="radio" required>
+                <label for="feng-radio">Feng Shui</label>
+    
+                <input id="numerology-radio" name="services" value="numerology" type="radio" required>
+                <label for="numerology-radio">Numerology</label>
+    
+                <input id="psychometry-radio" name="services" value="psychometry" type="radio" required>
+                <label for="psychometry-radio">Psychometry</label>
+    
+                <input id="oracle-radio" name="services" value="oracle" type="radio" required>
+                <label for="oracle-radio">Oracle Card Readings</label>
+                
+            <legend>Feedback</legend>
+                <label for="feedback" class="block-label">Other information you wish to add?</label>
+                <br>
+                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>	
+            
+    
+        </fieldset>
+        </form>
     
     <footer>
         <div class="contact">
