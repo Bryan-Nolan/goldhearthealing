@@ -32,7 +32,7 @@
         </nav>
     </header>
 
-    <form action="https://formdump.codeinstitute.net" method="POST">
+    <form action="./submit.html" method="GET">
 
         <fieldset>
             <legend>Your details</legend>
@@ -64,39 +64,42 @@
                     </datalist>
             </div>
             
-            <div>
-            <p>Which of our services most interests you?</p>
-    
-                <input id="reiki-radio" name="services" value="reiki" type="radio" required>
-                <label for="reiki-radio">Reiki</label>
-    
-                <input id="crystal-radio" name="services" value="crystal" type="radio" required>
-                <label for="crystal-radio">Crystal Healing</label>
-    
-                <input id="iet-radio" name="services" value="iet" type="radio" required>
-                <label for="iet-radio">Intergrated Energy Therapy</label>
-    
-                <input id="eft-radio" name="services" value="eft" type="radio" required>
-                <label for="eft-radio">Emotional Freedom Techniques</label>
-                
-                <input id="feng-radio" name="services" value="feng" type="radio" required>
-                <label for="feng-radio">Feng Shui</label>
-    
-                <input id="numerology-radio" name="services" value="numerology" type="radio" required>
-                <label for="numerology-radio">Numerology</label>
-    
-                <input id="psychometry-radio" name="services" value="psychometry" type="radio" required>
-                <label for="psychometry-radio">Psychometry</label>
-    
-                <input id="oracle-radio" name="services" value="oracle" type="radio" required>
-                <label for="oracle-radio">Oracle Card Readings</label>
-            
+            <div class="radio-buttons">
+
+            <p>Which of our services most interests you most?</p>
+                <div class="radio-buttons-top">
+                    <input id="reiki-radio" name="services" value="reiki" type="radio" required>
+                    <label for="reiki-radio">Reiki</label>
+        
+                    <input id="crystal-radio" name="services" value="crystal" type="radio" required>
+                    <label for="crystal-radio">Crystal Healing</label>
+        
+                    <input id="iet-radio" name="services" value="iet" type="radio" required>
+                    <label for="iet-radio">Intergrated Energy Therapy</label>
+                 
+                    <input id="eft-radio" name="services" value="eft" type="radio" required>
+                    <label for="eft-radio">EFT</label>
+                </div>
+
+                <div class ="radio-buttons-bottom">     
+                    <input id="feng-radio" name="services" value="feng" type="radio" required>
+                    <label for="feng-radio">Feng Shui</label>
+        
+                    <input id="numerology-radio" name="services" value="numerology" type="radio" required>
+                    <label for="numerology-radio">Numerology</label>
+        
+                    <input id="psychometry-radio" name="services" value="psychometry" type="radio" required>
+                    <label for="psychometry-radio">Psychometry</label>
+        
+                    <input id="oracle-radio" name="services" value="oracle" type="radio" required>
+                    <label for="oracle-radio">Oracle Card Readings</label>
+                    
+                </div>   
+
             </div>
 
             <legend>Penny for your thoughts</legend>
-                <label for="feedback" class="block-label">Feel free to share</label>
-                <br>
-                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>	
+                <textarea id="feedback" rows="7" cols="80" name="feedback"></textarea>	
             
     
         </fieldset>

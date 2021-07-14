@@ -285,10 +285,10 @@ aside li {
 	margin-top: 20px;
 }
 
-input[type=submit] {
+input[type=submit],
+input[type=reset] {
 	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
+	padding: 10px;
 	background-color: #02075d;
 	color: goldenrod;
 	border: none;
@@ -325,7 +325,34 @@ legend {
 }
 
 label {
-    margin: 10px 15px 10px 0;
+    margin: 20px 15px 10px 0;
 }
 
+.radio-buttons {
+    display: inline-block;
+}
+
+.radio-buttons p{
+    margin-top: 10px;
+}
+
+.radio-buttons-top {
+    margin: 10px;
+}
+
+.radio-buttons-bottom {
+        margin: 10px;    
+}
+
+.namaste {
+    width: 90%;
+    background: url(../images/cosmic.jpg) no-repeat center center;
+    margin-left: 5%;
+
+}
+
+.nasmate-container {
+    width: 80%;
+    margin-left: 5%;
+}
 
