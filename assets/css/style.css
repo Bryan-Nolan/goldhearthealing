@@ -176,7 +176,7 @@ body{
 }
 
 #about div{
-    border: navy solid 5px;
+    border: #02075d solid 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #888888;
     background-color: goldenrod ;
@@ -246,7 +246,7 @@ aside li {
 .services div {
     margin: 10px 5px 10px 5px;
     padding: 5px;    
-    border: navy solid 5px;
+    border: #02075d solid 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #888888;
     height: fit-content;
@@ -277,3 +277,55 @@ aside li {
     clear: both;
     display: table;
   }
+
+  /* Form Page*/
+
+  fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #02075d;
+	color: goldenrod;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[list=signs] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+form {
+	width: 50%;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto 110px auto;
+	background-color: goldenrod;
+    color: #02075d;
+}
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+label {
+    margin: 10px 15px 10px 0;
+}
+
+
