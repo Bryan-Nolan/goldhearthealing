@@ -232,9 +232,12 @@ footer{
     margin: 1%;
     padding: 1%;
     color: goldenrod;
+    vertical-align: middle;
 }
 
 .social-networks a{
+    line-height: 75px;
+    vertical-align: middle;
     text-decoration: none;
     color: goldenrod;
 }
