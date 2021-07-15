@@ -106,12 +106,12 @@ body{
     padding-top: 10px;
 }
 
-#services-content-link a{
+.services-content-link a{
     text-decoration: none;
     color: #02075d;
 }
 
-#services-content-link a:hover {
+.services-content-link a:hover {
     color: #C18F44;
 }
 
