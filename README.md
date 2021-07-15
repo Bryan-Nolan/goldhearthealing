@@ -50,17 +50,13 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - The information here was gained from Wikipedia. 
   - This page will have a fixed navigation bar on the left hand side.
 
-![Services-Error](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Images%20Error.jpg)
-
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Gold Heart Healing for a complementry newsletter. The user will be asked to submit their full name and email address and star sign. This will enable a targeted newsletter with matbe a horscope for user in future.  
   - Also in the sign up page contains which services the user is interested in and any feedback the may wish to share.  This can be used to see which services are the most popular in the future may target offers based on this information. 
   - During the creation o fteh services page I came across an dissue with sizing images in a teh div and they were going into other div's
 
-
-
-![Sign Up] /* Sign up Page*/
+![Sign Up-Error](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Images%20Error.jpg)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
