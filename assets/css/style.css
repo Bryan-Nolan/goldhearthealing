@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto+Slab&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-/*  Headers */ 
-header{
+/*  Headers */
+header {
     height: 75px;
     margin-left: 5%;
     width: 90%;
     background-color: #02075d;
 }
 
-body{
+body {
     font-family: Roboto Slab, sans-serif;
     font-weight: 300;
 }
@@ -35,7 +35,8 @@ body{
     letter-spacing: 4px;
 }
 
-.header-nav, .logo{
+.header-nav,
+.logo {
     line-height: 75px;
 }
 
@@ -45,7 +46,7 @@ body{
     margin-right: 30px;
 }
 
-.header-nav a{
+.header-nav a {
     text-decoration: none;
     color: goldenrod;
 }
@@ -66,47 +67,45 @@ body{
     padding: 50px 0;
     margin-left: 5%;
     width: 90%;
-	margin-top: 10px;
-	background-image: url('../images/sky.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+    margin-top: 10px;
+    background: url('../images/sky.jpg') no-repeat center center;
+    background-size: cover;
     color: #02075d;
 
 }
 
-#services-menu ul{
+#services-menu ul {
     list-style: none;
-    line-height: 25px;
 }
 
 #services-left-content h2 {
     font-size: 175%;
-    padding-left: 10px; 
+    padding-left: 10px;
     padding-top: 10px;
-    
+
 }
 
-#services-left-content li{
+#services-left-content li {
     font-size: 150%;
-    padding-left: 10px; 
+    padding-left: 10px;
     padding-top: 10px;
 }
 
-#services-right-content h2{
+#services-right-content h2 {
     text-align: right;
     font-size: 175%;
-    padding-right: 10px; 
-    padding-top: 10px;
-}
-#services-right-content li{
-    text-align: right;
-    font-size: 150%;
-    padding-right: 10px; 
+    padding-right: 10px;
     padding-top: 10px;
 }
 
-.services-content-link a{
+#services-right-content li {
+    text-align: right;
+    font-size: 150%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.services-content-link a {
     text-decoration: none;
     color: #02075d;
 }
@@ -115,21 +114,21 @@ body{
     color: #C18F44;
 }
 
-#services-left{
+#services-left {
     padding-top: 50px;
     padding-left: 10px;
     width: 30%;
     float: left;
 }
 
-#services-right{
+#services-right {
     padding-top: 50px;
     padding-right: 10px;
     width: 30%;
     float: right;
 }
 
-#services-left-content{
+#services-left-content {
     width: 90%;
     float: right;
     line-height: 50px;
@@ -145,20 +144,22 @@ body{
     margin-bottom: 50px;
 }
 
-#goldheart-image-container{
+#goldheart-image-container {
     width: 400px;
     height: 350px;
     padding: 0;
     margin: 0 auto;
 }
+
 #goldheart-image {
+    height: 100%;
+    background: url(../images/Golden-Heart-PNG-Clipart.png) no-repeat center center;
     
-    height: 100%;    
 }
 
 /* About Section*/
 
-#about{
+#about {
     margin: 20px 5% 20px 5%;
     width: 90%;
     padding: 5px 10px 5px 10px;
@@ -166,7 +167,7 @@ body{
 
 }
 
-#about h2{
+#about h2 {
     font-family: Balsamiq Sans, sans-serif;
     float: none;
     text-align: center;
@@ -174,15 +175,15 @@ body{
     margin-bottom: 10px;
 }
 
-#about div{
+#about div {
     border: #02075d solid 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #888888;
-    background-color: goldenrod ;
-    display:inline-block;
+    background-color: goldenrod;
+    display: inline-block;
     vertical-align: top;
-    width:30%;
-    padding:10px;
+    width: 30%;
+    padding: 10px;
     margin: 5px;
 }
 
@@ -200,7 +201,7 @@ body{
     margin-bottom: 10px;
 }
 
-.meditation-media iframe{
+.meditation-media iframe {
     margin-top: 20px;
     height: 500px;
     width: 100%;
@@ -208,26 +209,26 @@ body{
 
 /*  Footer*/
 
-footer{
+footer {
     position: fixed;
     bottom: 10px;
     background-color: #02075d;
     height: 90px;
     margin-left: 5%;
     width: 90%;
-	z-index: 3;
+    z-index: 3;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
 
-.social-networks i{
+.social-networks i {
     font-size: 300%;
     margin: 1%;
     padding: 1%;
@@ -235,7 +236,7 @@ footer{
     vertical-align: middle;
 }
 
-.social-networks a{
+.social-networks a {
     line-height: 75px;
     vertical-align: middle;
     text-decoration: none;
@@ -267,7 +268,7 @@ aside li {
 
 .services div {
     margin: 10px 5px 10px 5px;
-    padding: 5px;    
+    padding: 5px;
     border: #02075d solid 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #888888;
@@ -279,9 +280,9 @@ aside li {
 }
 
 .services-box-right img {
-   float: left;
-   padding: 5px;
-   width: 25%;
+    float: left;
+    padding: 5px;
+    width: 25%;
 }
 
 .services-box-left h2 {
@@ -289,32 +290,32 @@ aside li {
 }
 
 .services-box-left img {
-   float: right;
-   padding: 5px;
-   width: 25%;
+    float: right;
+    padding: 5px;
+    width: 25%;
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  /* Form Page*/
+/* Form Page*/
 
-  fieldset {
-	border: none;
-	margin-top: 20px;
+fieldset {
+    border: none;
+    margin-top: 20px;
 }
 
 input[type=submit],
 input[type=reset] {
-	margin-top: 20px;
-	padding: 10px;
-	background-color: #02075d;
-	color: goldenrod;
-	border: none;
-	border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #02075d;
+    color: goldenrod;
+    border: none;
+    border-radius: 5px;
 }
 
 input[type=text],
@@ -323,27 +324,27 @@ input[list=signs] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 form {
-	width: 50%;
-	padding: 25px;
-	border-radius: 8px;
-	margin: 25px auto 110px auto;
-	background-color: goldenrod;
+    width: 50%;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 25px auto 110px auto;
+    background-color: goldenrod;
     color: #02075d;
 }
 
 .block-label {
-	display: block;
+    display: block;
 }
 
 legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
 }
 
 label {
@@ -354,7 +355,7 @@ label {
     display: inline-block;
 }
 
-.radio-buttons p{
+.radio-buttons p {
     margin-top: 10px;
 }
 
@@ -363,7 +364,7 @@ label {
 }
 
 .radio-buttons-bottom {
-        margin: 10px;    
+    margin: 10px;
 }
 
 .namaste {
@@ -397,14 +398,10 @@ label {
 @media screen and (max-width: 1000px) {
 
 
-    header{
+    header {
         height: 150px;
     }
 
-    header a {
-
-    }
-    
     .header-nav {
         line-height: 40px;
         margin: 10px 20% 10px auto;
@@ -413,23 +410,18 @@ label {
     .header-nav li {
         display: inline-block;
         margin: 10px;
-        
+
     }
 
     .logo {
         text-align: center;
     }
 
-    .services-menu > div {
-        border: orange solid 5px;
-    }
-}
-
 /* for larger to medium screens size from 500px wide and down */
 
 @media screen and (max-width: 500px) {
 
-    header{
+    header {
         height: 100px;
     }
 
