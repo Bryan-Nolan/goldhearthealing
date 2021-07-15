@@ -14,6 +14,7 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Services and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The Logo on each page will also bring the user back to tghe home screen.  
 
 ![Nav Bar]/*Header Image*/
 
@@ -27,14 +28,10 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Gold Heart Healing with an eye catching animation to grab their attention
+  - This section introduces the user to Gold Heart Healing with an eye catching animation to grab their attention.
+  - The links contain in tkhe main image direct the user to a more detailed explainatiuon of service to help them understand and therefore engae more with site. 
 
 ![Landing Page]/*Main Page Image*/
-
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Gold Heart Healing meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Gold Heart Healing meetups. This should encourage the user to consider running as their form of exercise. 
 
 ![About]/*About Image*/
 
@@ -42,6 +39,7 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 
   - This section gives an insight into who Anne is and her qualifications for providing services 
   - This section will be updated as these times change to keep the user up to date. 
+  - I broke thsi up into 3 sections as to encourage a user to read a short section as opposed to a long passage of text. 
 
 ![About] /*About Section*/
 
@@ -49,13 +47,18 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 - __Services__
 
   - The services will give detailed explanation on each service provided.  The services are broken into 2 types of treatments and guidance.
+  - The information here was gained from Wikipedia. 
   - This page will have a fixed navigation bar on the left hand side.
 
-![Services]/* Seervices Image*/
+![Services-Error](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Images%20Error.jpg)
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Gold Heart HEaling to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to Gold Heart Healing for a complementry newsletter. The user will be asked to submit their full name and email address and star sign. This will enable a targeted newsletter with matbe a horscope for user in future.  
+  - Also in the sign up page contains which services the user is interested in and any feedback the may wish to share.  This can be used to see which services are the most popular in the future may target offers based on this information. 
+  - During the creation o fteh services page I came across an dissue with sizing images in a teh div and they were going into other div's
+
+
 
 ![Sign Up] /* Sign up Page*/
 
@@ -69,13 +72,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
@@ -91,21 +88,18 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
+  - On thsi page you will see a table on the left and pages is secod row from bottom. Click on this to get to Git Hub Pages
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://bryan-nolan.github.io/goldhearthealing/ 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
@@ -114,5 +108,5 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the from all pages were sourced from free open sourced sites
+- The video was from www/youtube.com
