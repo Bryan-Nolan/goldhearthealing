@@ -4,9 +4,20 @@ Gold Heart Healing is a site for a Holistic Therapist Anne to advertise her serv
 
 ![Responsice Mockup]/*Space Saver for Responsive Pic*/
 
+## User Stories
+
+### Owner
+ 
+ The aim of this site for the owner is to advertise thier business and what services they offer.  By telling potential customers what each service is and their benifits.  By making a holistic feel on the site with the images of clouds and sky and also a guided meditation video on the landing page to bring a calming experience to a potential client.  With the offer of tailored horoscope news letter will engage potential customers to sign up and give client list for potential marketing of promotions contained in the newsletter
+
+### Users
+The aim is provid ethe user with the sence of peace and calm to entice them to engage with site.  The gold heart floating in the sky draws the users focus to the page and tghe links to treatments and guideance services.  The landing also has a guided meditation of 10 minutes which may encourage repeat visit if users find appealing.
+The aim is that when a user leaves thsi site they wil have a better underrstanding of services offered and be happy to sign up for a newsletter. 
+
+
 ## Features 
 
-This website will contain 3 pages.  To keep uniformity, I will be keeping the headers and footers of each page the same with the same functionality.
+This website will contain 3 pages.  To keep uniformity, I will be keeping the headers and footers of each page the same with the same functionality.  Functional links guide around the site to make navigation easy for the user. 
 
 ### Common Features
 
@@ -25,11 +36,11 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 
 ![Footer]/*Footer Image*/
 
-- __The landing page image__
+- __The Landing Page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Gold Heart Healing with an eye catching animation to grab their attention.
-  - The links contain in tkhe main image direct the user to a more detailed explainatiuon of service to help them understand and therefore engae more with site. 
+  - The links contain in the main image direct the user to a more detailed explainatiuon of service to help them understand and therefore engae more with site. 
 
 ![Landing Page]/*Main Page Image*/
 
@@ -61,6 +72,16 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+- __Responsive Site__
+
+In these times of multiple devices accessing websites I have decide to make my site responsive to the following sizes
+
+- Screen Size below 1200 pixels which to me equates to large tablet.
+- Screen Size bekow 800 pixels which to equates to normal size tablet
+- Screen Size below 500 pixels to suit large phone.
+- Screen Size below 300 pixels to smaller phone. 
+
 
 ### Features Left to Implement
 
