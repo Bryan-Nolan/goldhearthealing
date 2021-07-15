@@ -153,7 +153,7 @@ body{
     margin: 0 auto;
 }
 #goldheart-image {
-    background: url('../images/Golden-Heart-PNG-Clipart75.png') no-repeat center center;
+    
     height: 100%;    
 }
 
@@ -390,8 +390,7 @@ label {
 
 }
 
-
-
+/* for larger to medium screens size from 1000px wide and down */
 
 @media screen and (max-width: 1000px) {
 
@@ -399,11 +398,64 @@ label {
     header{
         height: 150px;
     }
+    
+    .header-nav {
+        line-height: 40px;
+        margin: 10px 20% 10px auto;
+    }
+
     .header-nav li {
-        list-style: none;
-        margin-right: 30px;
+        display: inline-block;
+        margin: 10px;
+        
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    .services-menu > div {
+        border: orange solid 5px;
+    }
+}
+
+/* for larger to medium screens size from 500px wide and down */
+
+@media screen and (max-width: 500px) {
+
+    header{
+        height: 100px;
+    }
+
+    .logo {
+        font-size: 200%;
+        line-height: 40px;
+    }
+
+    .header-nav {
+        line-height: 40px;
+        margin: 10px 10% 10px auto;
     }
 
 
 
+}
+
+/* for larger to medium screens size from 500px wide and down */
+
+@media screen and (max-width: 350px) {
+
+
+    .logo {
+        padding-top: 10px;
+        font-size: 150%;
+        line-height: 20px;
+    }
+
+    .header-nav {
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
 }
