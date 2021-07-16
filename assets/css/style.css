@@ -118,7 +118,7 @@ body {
     padding-top: 50px;
     padding-left: 10px;
     width: 30%;
-    float: left;    
+    float: left;
 }
 
 #services-right {
@@ -139,7 +139,7 @@ body {
     width: 90%;
     float: left;
     line-height: 50px;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
 
 #goldheart-image-container {
@@ -148,7 +148,7 @@ body {
     padding: 0;
     display: inline-block;
     margin: 0 5%;
-    
+
 }
 
 #goldheart-image {
@@ -393,23 +393,24 @@ label {
     #services-left {
         width: 25%;
     }
-    #services-right{
+
+    #services-right {
         width: 25%;
     }
 
-    #services-left-content{
+    #services-left-content {
         line-height: 25px;
     }
 
-    #services-right-content{
+    #services-right-content {
         line-height: 25px;
     }
 
-    #services-left-content li{
+    #services-left-content li {
         font-size: 100%;
     }
 
-    #services-right-content li{
+    #services-right-content li {
         font-size: 100%;
     }
 
@@ -455,132 +456,136 @@ label {
     #services-left {
         width: 20%;
     }
-    #services-right{
+
+    #services-right {
         width: 20%;
     }
 
-    #services-right-content{
+    #services-right-content {
         line-height: 25px;
     }
 
-    #services-left-content li{
-        font-size: 75%;
-    }
-
-    #services-right-content li{
-        font-size: 75%;
-    }
-
-    #services-left-content h2 {
-        font-size: 100%;
-    }
-
-    #services-right-content h2 {
-        font-size: 100%;
-    }
-
-    .social-networks i {
-        font-size: 200%;
-    }
-
-/* for larger to medium screens size from 500px wide and down */
-
-@media screen and (max-width: 500px) {
-
-    header {
-        height: 100px;
-    }
-
-    .logo {
-        font-size: 200%;
-        line-height: 20px;
-        margin-top: 20px;
-    }
-
-    .header-nav {
-        line-height: 40px;
-        margin: 10px 10% 10px auto;
-        font-size: 100%;
-    }
-
-    #services-menu {
-        height: 800px;
-    }
-    #services-menu div {
-        display: block;
-        width: 90%;
-    }
-
-    #services-left {
-        margin-top: 200px;
-    }
-
     #services-left-content li {
-        font-size: 150%;
-    }
-
-    #services-right {
-        margin-top: 10px;
-        padding: 0;
+        font-size: 75%;
     }
 
     #services-right-content li {
-        font-size: 150%;
+        font-size: 75%;
     }
 
     #services-left-content h2 {
-        font-size: 175%;
+        font-size: 100%;
     }
 
     #services-right-content h2 {
-        font-size: 175%;
-    }
-
-    .meditation-media {
-        width: 80%;
-    }
-
-    .social-networks a {
-        line-height: 40px;
+        font-size: 100%;
     }
 
     .social-networks i {
-        font-size: 150%;
-        margin: 1%;
-        padding: 1%;
+        font-size: 200%;
     }
 
-}
+    /* for larger to medium screens size from 500px wide and down */
 
-/* for larger to medium screens size from 300px wide and down */
+    @media screen and (max-width: 500px) {
 
-@media screen and (max-width: 350px) {
+        header {
+            height: 100px;
+        }
 
+        .logo {
+            font-size: 200%;
+            line-height: 20px;
+            margin-top: 20px;
+        }
 
-    .logo {
-        padding-top: 10px;
-        font-size: 120%;
-        margin-top: 5px;
+        .header-nav {
+            line-height: 40px;
+            margin: 10px 10% 10px auto;
+            font-size: 100%;
+        }
+
+        #services-menu {
+            padding: 20px 0;
+            height: 800px;
+        }
+
+        #services-menu div {
+            display: block;
+            width: 90%;
+        }
+
+        #services-left {
+            margin-top: 200px;
+        }
+
+        #services-left-content li {
+            font-size: 150%;
+        }
+
+        #services-right {
+            margin-top: 10px;
+            padding: 0;
+        }
+
+        #services-right-content li {
+            font-size: 150%;
+        }
+
+        #services-left-content h2 {
+            font-size: 175%;
+        }
+
+        #services-right-content h2 {
+            font-size: 175%;
+        }
+
+        .meditation-media {
+            width: 80%;
+        }
+
+        .social-networks a {
+            line-height: 40px;
+        }
+
+        .social-networks i {
+            font-size: 150%;
+            margin: 1%;
+            padding: 1%;
+        }
+
     }
 
-    .header-nav {
-        font-size: 90%;
-        letter-spacing: 1px;
-    }
+    /* for larger to medium screens size from 300px wide and down */
 
-    #services-menu div {
-        width: 100%;
-    }
+    @media screen and (max-width: 350px) {
 
-    #goldheart-image-container {
-        margin: 0 1%;    
-    }
 
-    .social-networks a {
-        line-height: 50px;
-    }
+        .logo {
+            padding-top: 10px;
+            font-size: 120%;
+            margin-top: 5px;
+        }
 
-    .social-networks i {
-        font-size: 150%;
+        .header-nav {
+            font-size: 90%;
+            letter-spacing: 1px;
+        }
+
+
+        #services-menu div {
+            width: 100%;
+        }
+
+        #goldheart-image-container {
+            margin: 0 1%;
+        }
+
+        .social-networks a {
+            line-height: 50px;
+        }
+
+        .social-networks i {
+            font-size: 150%;
+        }
     }
-}
