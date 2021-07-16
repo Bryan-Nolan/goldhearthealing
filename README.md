@@ -92,7 +92,7 @@ In these times of multiple devices accessing websites, I have decided to make my
 - Screen Size below 1280 pixels which to me equates to Laptop Screen.
 - Screen Size below 768 pixels which to equates to tablet
 - Screen Size below 500 pixels to suit large phone.
-- Screen Size below 320 pixels to mobile. 
+- Screen Size below 350 pixels to mobile. 
 - 
 ### Features for the future
 -_Schedule_
@@ -114,10 +114,7 @@ My Testers were my son Cormac (17) and daughter Heather (14).  Anne the person I
 -Responsive CSS
  - During this project the hardest part I found was trying to adapt responsiveness of site to different size screen.  I tried to cover and try as may varities as I could through the Developer Tools in Google Chrome. Test roatation of screens also. 
 
-
 ![Responsive- Screens](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/responsive-screens.png)
-
-
 
 ## Deployment
 
