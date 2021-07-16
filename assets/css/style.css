@@ -374,26 +374,23 @@ label {
     margin: 10px;
 }
 
-fieldset h2{
+fieldset h2 {
     padding: 5px;
 }
 
 /*  Submit Page CSS*/
 
 .namaste {
-    height: 150%;
+    height: 700px;
     padding: 50px 0;
-    margin-left: 5%;
+    margin: 10px 5%;
     width: 90%;
-    margin-top: 10px;
     background: url(../images/cosmic.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .namaste-container {
-    border: #02075d solid 5px;
-    width: 80%;
-
+    height: 100%;
     margin-left: 5%;
     background: url(../images/namaste.png) no-repeat center center;
 }
@@ -437,6 +434,10 @@ fieldset h2{
 
     .services-content-link a {
         text-decoration: underline;
+    }
+
+    .namaste {
+        height: 520px;
     }
 
 }
@@ -538,158 +539,174 @@ fieldset h2{
         margin: 0 5px;
     }
 
-    /* for larger to medium screens size from 500px wide and down */
-
-    @media screen and (max-width: 500px) {
-
-        header {
-            height: 100px;
-        }
-
-        .logo {
-            font-size: 200%;
-            line-height: 20px;
-            margin-top: 20px;
-        }
-
-        .header-nav {
-            line-height: 40px;
-            margin: 10px 10% 10px auto;
-            font-size: 100%;
-        }
-
-        #services-menu {
-            padding: 20px 0;
-            height: 700px;
-        }
-
-        #services-menu div {
-            display: block;
-            width: 90%;
-        }
-
-        #services-left {
-            margin-top: 200px;
-        }
-
-        #services-left-content li {
-            font-size: 150%;
-        }
-
-        #services-right {
-            margin-top: 10px;
-            padding: 0;
-        }
-
-        #services-right-content li {
-            font-size: 150%;
-        }
-
-        #services-left-content h2 {
-            font-size: 175%;
-        }
-
-        #services-right-content h2 {
-            font-size: 175%;
-        }
-
-        .meditation-media {
-            width: 80%;
-        }
-
-        .social-networks a {
-            line-height: 40px;
-        }
-
-        .social-networks i {
-            font-size: 150%;
-            margin: 1%;
-            padding: 1%;
-        }
-        
-       
+    .namaste {
+        height: 520px;
     }
 
-    /* for larger to medium screens size from 350px wide and down */
-
-    @media screen and (max-width: 320px) {
-
-
-        .logo {
-            padding-top: 10px;
-            font-size: 150%;
-            margin-top: 5px;
-        }
-
-        .header-nav {
-            font-size: 90%;
-            letter-spacing: 1px;
-        }
-
-
-        #services-menu div {
-            width: 100%;
-        }
-
-        #goldheart-image-container {
-            margin: 0 1%;
-        }
-
-        .social-networks a {
-            line-height: 40px;
-        }
-
-        .social-networks i {
-            font-size: 140%;
-        }
-
-        aside {
-            float: none;
-            position: unset;
-            width: 90%;
-            line-height: 25px;
-            margin-bottom: 10px;
-        }
-
-        .services {
-            width: 90%;
-            margin-right: 5%;
-        }
-
-        .services div {
-            float: unset;
-            width: 90%;
-        }
-
-        .services-box-right h2 {
-            float: unset;
-            text-align: center;
-            width: 90%;
-        }
-
-        .services-box-right img {
-            width: 90%;
-            margin: 5px 5%;
-        }
-
-        .services-box-left h2 {
-            float: unset;
-            text-align: center;
-            width: 90%;
-        }
-
-        .services-box-left img {
-            width: 90%;
-            margin: 5px 5%;
-        }
-
-        .services-div-text {
-            font-size: 0;
-        }
-
-        fieldset h2{
-             font-size: 100%;
-         }
-
-        
+    .namaste-container {
+        background: url(../images/namaste-600.png) no-repeat center center;
     }
+}
+
+/* for larger to medium screens size from 500px wide and down */
+
+@media screen and (max-width: 500px) {
+
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        font-size: 200%;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .header-nav {
+        line-height: 40px;
+        margin: 10px 10% 10px auto;
+        font-size: 100%;
+    }
+
+    #services-menu {
+        padding: 20px 0;
+        height: 700px;
+    }
+
+    #services-menu div {
+        display: block;
+        width: 90%;
+    }
+
+    #services-left {
+        margin-top: 200px;
+    }
+
+    #services-left-content li {
+        font-size: 150%;
+    }
+
+    #services-right {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #services-right-content li {
+        font-size: 150%;
+    }
+
+    #services-left-content h2 {
+        font-size: 175%;
+    }
+
+    #services-right-content h2 {
+        font-size: 175%;
+    }
+
+    .meditation-media {
+        width: 80%;
+    }
+
+    .social-networks a {
+        line-height: 40px;
+    }
+
+    .social-networks i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .namaste {
+        height: 200px;
+    }
+
+    .namaste-container {
+        background: url(../images/namaste-270.png) no-repeat center center;
+    }
+}
+
+
+
+/* for larger to medium screens size from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+
+
+    .logo {
+        padding-top: 10px;
+        font-size: 150%;
+        margin-top: 5px;
+    }
+
+    .header-nav {
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+
+
+    #services-menu div {
+        width: 100%;
+    }
+
+    #goldheart-image-container {
+        margin: 0 1%;
+    }
+
+    .social-networks a {
+        line-height: 40px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+    }
+
+    aside {
+        float: none;
+        position: unset;
+        width: 90%;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .services div {
+        float: unset;
+        width: 90%;
+    }
+
+    .services-box-right h2 {
+        float: unset;
+        text-align: center;
+        width: 90%;
+    }
+
+    .services-box-right img {
+        width: 90%;
+        margin: 5px 5%;
+    }
+
+    .services-box-left h2 {
+        float: unset;
+        text-align: center;
+        width: 90%;
+    }
+
+    .services-box-left img {
+        width: 90%;
+        margin: 5px 5%;
+    }
+
+    .services-div-text {
+        font-size: 0;
+    }
+
+    fieldset h2 {
+        font-size: 100%;
+    }
+
+}
