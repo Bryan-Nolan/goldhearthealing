@@ -379,16 +379,23 @@ fieldset h2{
 }
 
 /*  Submit Page CSS*/
-.namaste {
-    width: 90%;
-    background: url(../images/cosmic.jpg) no-repeat center center;
-    margin-left: 5%;
 
+.namaste {
+    height: 150%;
+    padding: 50px 0;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10px;
+    background: url(../images/cosmic.jpg) no-repeat center center;
+    background-size: cover;
 }
 
-.nasmate-container {
+.namaste-container {
+    border: #02075d solid 5px;
     width: 80%;
+
     margin-left: 5%;
+    background: url(../images/namaste.png) no-repeat center center;
 }
 
 
