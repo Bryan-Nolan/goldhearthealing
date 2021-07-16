@@ -586,6 +586,7 @@ fieldset h2 {
     }
 
     #services-left {
+        padding-top: 30px;
         margin-top: 200px;
     }
 
@@ -599,6 +600,7 @@ fieldset h2 {
     }
 
     #services-right-content li {
+        padding-bottom: 5px;
         font-size: 150%;
     }
 
