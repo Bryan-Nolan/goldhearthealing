@@ -77,10 +77,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In these times of multiple devices accessing websites I have decide to make my site responsive to the following sizes
 
-- Screen Size below 1200 pixels which to me equates to large tablet.
-- Screen Size bekow 800 pixels which to equates to normal size tablet
+- Screen Size below 1280 pixels which to me equates to Laptop Screen.
+- Screen Size bekow 768 pixels which to equates to tablet
 - Screen Size below 500 pixels to suit large phone.
-- Screen Size below 350 pixels to smaller phone. 
+- Screen Size below 320 pixels to mobile. 
 
 
 ### Features Left to Implement

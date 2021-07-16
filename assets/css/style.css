@@ -381,8 +381,9 @@ label {
 
 /* Media Queries*/
 
-/* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* for larger to medium screens size from 1280px wide and down Alptop size on http://ami.responsivedesign.is/ */
+
+@media screen and (max-width: 1280px) {
 
     #about div {
         display: block;
@@ -391,11 +392,11 @@ label {
     }
 
     #services-left {
-        width: 20%;
+        width: 26%;
     }
 
     #services-right {
-        width: 20%;
+        width: 26%;
     }
 
     #services-left-content {
