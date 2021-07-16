@@ -540,32 +540,47 @@ label {
         width: 80%;
     }
 
+    .social-networks a {
+        line-height: 40px;
+    }
+
     .social-networks i {
-        font-size: 70%;
-        margin: 0.5%;
-        padding: 0.5%;
+        font-size: 150%;
+        margin: 1%;
+        padding: 1%;
     }
 
 }
 
 /* for larger to medium screens size from 300px wide and down */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
 
 
     .logo {
         padding-top: 10px;
-        font-size: 100%;
-        line-height: 20px;
-        margin-left: 5px;
+        font-size: 120%;
+        margin-top: 5px;
     }
 
     .header-nav {
-        line-height: 20px;
+        font-size: 90%;
         letter-spacing: 1px;
-        font-size: 80%;
-        margin: 0;
     }
 
+    #services-menu div {
+        width: 100%;
+    }
 
+    #goldheart-image-container {
+        margin: 0 1%;    
+    }
+
+    .social-networks a {
+        line-height: 50px;
+    }
+
+    .social-networks i {
+        font-size: 150%;
+    }
 }

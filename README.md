@@ -80,7 +80,7 @@ In these times of multiple devices accessing websites I have decide to make my s
 - Screen Size below 1200 pixels which to me equates to large tablet.
 - Screen Size bekow 800 pixels which to equates to normal size tablet
 - Screen Size below 500 pixels to suit large phone.
-- Screen Size below 300 pixels to smaller phone. 
+- Screen Size below 350 pixels to smaller phone. 
 
 
 ### Features Left to Implement
