@@ -61,7 +61,8 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
 
 ![Services](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/services-page.jpg)
 
--_Services Issue_
+- __Services Issue__
+
  - During the creation of the services page I came across an issue with sizing images in a the div and they were going into other div.’s
 - To solve this, I found the following CSS at https://www.w3schools.com/howto/howto_css_clearfix.asp which I use.
 - 
