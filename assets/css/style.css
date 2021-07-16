@@ -628,9 +628,9 @@ fieldset h2 {
 
 
 
-/* for larger to medium screens size from 320px wide and down */
+/* for larger to medium screens size from 360px wide and down */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
 
     .logo {
