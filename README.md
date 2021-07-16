@@ -27,14 +27,14 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - The Logo on each page will also bring the user back to the home screen.  
 
-![Nav Bar]/*Header Image*/
+![Nav Bar](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/header.jpg)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Gold Heart Healing. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer]/*Footer Image*/
+![Footer](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/footer.jpg)
 
 - __The Landing Page image__
 
@@ -42,9 +42,7 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - This section introduces the user to Gold Heart Healing with an eye-catching animation to grab their attention.
   - The links contain in the main image direct the user to a more detailed explanation of service to help them understand and therefore engage more with site. 
 
-![Landing Page]/*Main Page Image*/
-
-![About]/*About Image*/
+![Landing Page](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/services-nav.jpg)
 
 - __About section__
 
@@ -52,7 +50,7 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - This section will be updated as these times change to keep the user up to date. 
   - I broke this up into 3 sections as to encourage a user to read a short section as opposed to a long passage of text. 
 
-![About] /*About Section*/
+![About](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/about.jpg)
 
 
 - __Services__
@@ -61,19 +59,28 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - The information here was gained from Wikipedia. 
   - This page will have a fixed navigation bar on the left-hand side.
 
-- __The Sign-Up Page__
+![Services](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/services-page.jpg)
 
-  - This page will allow the user to get signed up to Gold Heart Healing for a complementary newsletter. The user will be asked to submit their full name and email address and star sign. This will enable a targeted newsletter with target a horoscope for the user in future.  
-  - Also in the sign up page contains which services the user is interested in and any feedback the may wish to share.  This can be used to see which services are the most popular in the future may target offers based on this information. 
-  - During the creation of the services page I came across an issue with sizing images in a the div and they were going into other div.’s
+-_Services Issue_
+ - During the creation of the services page I came across an issue with sizing images in a the div and they were going into other div.’s
 - To solve this, I found the following CSS at https://www.w3schools.com/howto/howto_css_clearfix.asp which I use.
+- 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-![Sign Up-Error](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Images%20Error.jpg)
+![Services-page-Error](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Images%20Error.jpg)
+
+- __The Sign-Up Page__
+
+  - This page will allow the user to get signed up to Gold Heart Healing for a complementary newsletter. The user will be asked to submit their full name and email address and star sign. This will enable a targeted newsletter with target a horoscope for the user in future.  
+  - Also in the sign up page contains which services the user is interested in and any feedback the may wish to share.  This can be used to see which services are the most popular in the future may target offers based on this information. 
+
+![Siogn-up](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/form-page.jpg)
+
+ 
 - __Responsive Site__
 
 In these times of multiple devices accessing websites, I have decided to make my site responsive to the following sizes
@@ -82,6 +89,7 @@ In these times of multiple devices accessing websites, I have decided to make my
 - Screen Size below 768 pixels which to equates to tablet
 - Screen Size below 500 pixels to suit large phone.
 - Screen Size below 320 pixels to mobile. 
+- 
 ### Features for the future
 -_Schedule_
 - In the future I would create a facility to show available slots for treatment which could be booked by users
