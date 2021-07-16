@@ -409,11 +409,13 @@ fieldset h2 {
     }
 
     #services-left {
-        width: 22%;
+        width: 23%;
+        padding: 0;
     }
 
     #services-right {
-        width: 22%;
+        width: 23%;
+        padding: 0;
     }
 
     #services-left-content {
@@ -476,39 +478,44 @@ fieldset h2 {
     }
 
     #services-left {
-        width: 20%;
+        width: 17%;
     }
 
     #services-right {
-        width: 20%;
+        width: 17%;
     }
 
     #services-right-content {
-        line-height: 25px;
+        line-height: 20px;
     }
 
+    #services-left-content {
+        line-height: 20px;
+    }
     #services-left-content li {
-        font-size: 75%;
+        font-size: 50%;
     }
 
     #services-right-content li {
-        font-size: 75%;
+        font-size: 50%;
     }
 
     #services-left-content h2 {
-        font-size: 100%;
+        font-size: 50%;
     }
 
     #services-right-content h2 {
-        font-size: 100%;
+        font-size: 50%;
     }
 
     .social-networks i {
-        font-size: 200%;
+        font-size: 150%;
+        padding: 0;
     }
 
     aside {
         padding-top: 20px;
+        position: unset;
     }
 
     form {
@@ -624,43 +631,6 @@ fieldset h2 {
     .namaste-container {
         background: url(../images/namaste-270.png) no-repeat center center;
     }
-}
-
-
-
-/* for larger to medium screens size from 360px wide and down */
-
-@media screen and (max-width: 360px) {
-
-
-    .logo {
-        padding-top: 10px;
-        font-size: 150%;
-        margin-top: 5px;
-    }
-
-    .header-nav {
-        font-size: 90%;
-        letter-spacing: 1px;
-    }
-
-
-    #services-menu div {
-        width: 100%;
-    }
-
-    #goldheart-image-container {
-        margin: 0 1%;
-    }
-
-    .social-networks a {
-        line-height: 40px;
-    }
-
-    .social-networks i {
-        font-size: 140%;
-    }
-
     aside {
         float: none;
         position: unset;
@@ -705,6 +675,44 @@ fieldset h2 {
         font-size: 0;
     }
 
+}
+
+
+
+/* for larger to medium screens size from 360px wide and down */
+
+@media screen and (max-width: 360px) {
+
+
+    .logo {
+        padding-top: 10px;
+        font-size: 150%;
+        margin-top: 5px;
+    }
+
+    .header-nav {
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+
+
+    #services-menu div {
+        width: 100%;
+    }
+
+    #goldheart-image-container {
+        margin: 0 1%;
+    }
+
+    .social-networks a {
+        line-height: 40px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+    }
+
+    
     fieldset h2 {
         font-size: 100%;
     }
