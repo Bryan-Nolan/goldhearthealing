@@ -374,6 +374,11 @@ label {
     margin: 10px;
 }
 
+fieldset h2{
+    padding: 5px;
+}
+
+/*  Submit Page CSS*/
 .namaste {
     width: 90%;
     background: url(../images/cosmic.jpg) no-repeat center center;
@@ -498,6 +503,34 @@ label {
         padding-top: 20px;
     }
 
+    form {
+        width: 80%;
+        padding: 10px;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[list=signs] {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    input[type="radio"] {
+        margin-top: -1px;
+        vertical-align: middle;
+    }
+
+    .radio-buttons-top {
+        margin: 0 5px;
+    }
+
+    .radio-buttons-bottom {
+        margin: 0 5px;
+    }
+
     /* for larger to medium screens size from 500px wide and down */
 
     @media screen and (max-width: 500px) {
@@ -566,7 +599,8 @@ label {
             margin: 1%;
             padding: 1%;
         }
-
+        
+       
     }
 
     /* for larger to medium screens size from 350px wide and down */
@@ -646,31 +680,9 @@ label {
             font-size: 0;
         }
 
-        form {
-            width: 90%;
-            padding: 5px;
-        }
+        fieldset h2{
+             font-size: 100%;
+         }
 
-        input[type=text],
-        input[type=email],
-        input[list=signs] {
-            width: 80%;
-        }
-
-        textarea {
-            width: 90%;
-        }
-
-        input[type="radio"] {
-            margin-top: -1px;
-            vertical-align: middle;
-        }
-
-        .radio-buttons-top {
-            margin: 0 5px;
-        }
-
-        .radio-buttons-bottom {
-            margin: 0 5px;
-        }
+        
     }
