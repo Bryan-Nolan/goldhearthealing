@@ -2,7 +2,7 @@
 
 Gold Heart Healing is a site for a Holistic Therapist Anne to advertise her services.  This is to explain what she can do and to detail what each service involves.  
 
-![Responsice Mockup]/*Space Saver for Responsive Pic*/
+![Responsice Mockup](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Responsive.jpg)
 
 ## User Stories
 
