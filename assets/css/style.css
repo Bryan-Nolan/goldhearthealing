@@ -398,7 +398,31 @@ fieldset h2 {
 
 /* Media Queries*/
 
-/* for larger to medium screens size from 1280px wide and down Alptop size on http://ami.responsivedesign.is/ */
+/* for larger screens size from 1600px wide and down Alptop size on http://ami.responsivedesign.is/ */
+
+@media screen and (max-width: 1600px) {
+
+    #services-left {
+        width: 20%;
+        padding: 0;
+    }
+
+    #services-right {
+        width: 20%;
+        padding: 0;
+    }
+    #services-left-content {
+        line-height: 30px;
+    }
+
+    #services-right-content {
+        line-height: 30px;
+    }
+
+}
+
+
+/* for medium screens size from 1280px wide and down Alptop size on http://ami.responsivedesign.is/ */
 
 @media screen and (max-width: 1280px) {
 
@@ -406,16 +430,6 @@ fieldset h2 {
         display: block;
         margin: 10px auto;
         width: 80%;
-    }
-
-    #services-left {
-        width: 23%;
-        padding: 0;
-    }
-
-    #services-right {
-        width: 23%;
-        padding: 0;
     }
 
     #services-left-content {
@@ -492,6 +506,7 @@ fieldset h2 {
     #services-left-content {
         line-height: 20px;
     }
+
     #services-left-content li {
         font-size: 50%;
     }
@@ -633,6 +648,7 @@ fieldset h2 {
     .namaste-container {
         background: url(../images/namaste-270.png) no-repeat center center;
     }
+
     aside {
         float: none;
         position: unset;
@@ -714,7 +730,7 @@ fieldset h2 {
         font-size: 140%;
     }
 
-    
+
     fieldset h2 {
         font-size: 100%;
     }
