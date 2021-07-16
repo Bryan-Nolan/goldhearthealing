@@ -82,7 +82,7 @@ This website will contain 3 pages.  To keep uniformity, I will be keeping the he
   - This page will allow the user to get signed up to Gold Heart Healing for a complementary newsletter. The user will be asked to submit their full name and email address and star sign. This will enable a targeted newsletter with target a horoscope for the user in future.  
   - Also in the sign up page contains which services the user is interested in and any feedback the may wish to share.  This can be used to see which services are the most popular in the future may target offers based on this information. 
 
-![Siogn-up](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/form-page.jpg)
+![Sign-up](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/form-page.jpg)
 
  
 - __Responsive Site__
@@ -112,7 +112,13 @@ My Testers were my son Cormac (17) and daughter Heather (14).  Anne the person I
 
 ### Unfixed Bugs
 -Responsive CSS
- - During this project the hardest part I found was trying to adapt responsiveness of site to different size screen.  I tried to cover and try as may varities as I could
+ - During this project the hardest part I found was trying to adapt responsiveness of site to different size screen.  I tried to cover and try as may varities as I could through the Developer Tools in Google Chrome. Test roatation of screens also. 
+
+
+![Responsive- Screens](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/responsive-screens.png)
+
+
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
