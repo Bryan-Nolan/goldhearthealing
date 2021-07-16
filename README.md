@@ -4,6 +4,9 @@ Gold Heart Healing is a site for a Holistic Therapist Anne to advertise her serv
 
 ![Responsice Mockup](https://github.com/Bryan-Nolan/goldhearthealing/blob/master/assets/readme-images/Responsive.jpg)
 
+## Gold Heart Healing Site
+The live link can be found here - https://bryan-nolan.github.io/goldhearthealing/ 
+
 ## User Stories
 
 ### Owner
