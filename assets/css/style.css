@@ -500,7 +500,7 @@ label {
 
     /* for larger to medium screens size from 500px wide and down */
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 500px) {
 
         header {
             height: 100px;
@@ -569,9 +569,9 @@ label {
 
     }
 
-    /* for larger to medium screens size from 300px wide and down */
+    /* for larger to medium screens size from 350px wide and down */
 
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 320px) {
 
 
         .logo {
