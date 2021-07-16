@@ -413,6 +413,10 @@ label {
         font-size: 100%;
     }
 
+    .services-content-link a {
+        text-decoration: underline;
+    }
+
 }
 
 /* for larger to medium screens size from 800px wide and down */
@@ -474,6 +478,11 @@ label {
     #services-right-content h2 {
         font-size: 100%;
     }
+
+    .social-networks i {
+        font-size: 200%;
+    }
+
 /* for larger to medium screens size from 500px wide and down */
 
 @media screen and (max-width: 500px) {
@@ -484,16 +493,58 @@ label {
 
     .logo {
         font-size: 200%;
-        line-height: 40px;
+        line-height: 20px;
         margin-top: 20px;
     }
 
     .header-nav {
         line-height: 40px;
         margin: 10px 10% 10px auto;
+        font-size: 100%;
     }
 
+    #services-menu {
+        height: 800px;
+    }
+    #services-menu div {
+        display: block;
+        width: 90%;
+    }
 
+    #services-left {
+        margin-top: 200px;
+    }
+
+    #services-left-content li {
+        font-size: 150%;
+    }
+
+    #services-right {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #services-right-content li {
+        font-size: 150%;
+    }
+
+    #services-left-content h2 {
+        font-size: 175%;
+    }
+
+    #services-right-content h2 {
+        font-size: 175%;
+    }
+
+    .meditation-media {
+        width: 80%;
+    }
+
+    .social-networks i {
+        font-size: 70%;
+        margin: 0.5%;
+        padding: 0.5%;
+    }
 
 }
 
@@ -503,16 +554,18 @@ label {
 
 
     .logo {
-        padding-top: 20px;
-        font-size: 150%;
+        padding-top: 10px;
+        font-size: 100%;
         line-height: 20px;
-        margin: 0;
+        margin-left: 5px;
     }
 
     .header-nav {
         line-height: 20px;
         letter-spacing: 1px;
-        font-size: 90%;
+        font-size: 80%;
         margin: 0;
     }
+
+
 }
