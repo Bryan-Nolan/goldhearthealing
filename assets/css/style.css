@@ -576,7 +576,7 @@ label {
 
         .logo {
             padding-top: 10px;
-            font-size: 120%;
+            font-size: 150%;
             margin-top: 5px;
         }
 
@@ -595,43 +595,82 @@ label {
         }
 
         .social-networks a {
-            line-height: 50px;
+            line-height: 40px;
         }
 
         .social-networks i {
-            font-size: 150%;
+            font-size: 140%;
         }
 
-        aside{
+        aside {
             float: none;
             position: unset;
             width: 90%;
-            line-height: 30px;
+            line-height: 25px;
             margin-bottom: 10px;
         }
 
-        .services div{
+        .services {
+            width: 90%;
+            margin-right: 5%;
+        }
+
+        .services div {
             float: unset;
             width: 90%;
-            margin: 10px 5%;
         }
 
         .services-box-right h2 {
             float: unset;
-        }
-
-        .services-box-right img{
+            text-align: center;
             width: 90%;
         }
-        
+
+        .services-box-right img {
+            width: 90%;
+            margin: 5px 5%;
+        }
+
         .services-box-left h2 {
             float: unset;
-        }
-
-        .services-box-left img{
+            text-align: center;
             width: 90%;
         }
-        .services-div-text{
+
+        .services-box-left img {
+            width: 90%;
+            margin: 5px 5%;
+        }
+
+        .services-div-text {
             font-size: 0;
+        }
+
+        form {
+            width: 90%;
+            padding: 5px;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[list=signs] {
+            width: 80%;
+        }
+
+        textarea {
+            width: 90%;
+        }
+
+        input[type="radio"] {
+            margin-top: -1px;
+            vertical-align: middle;
+        }
+
+        .radio-buttons-top {
+            margin: 0 5px;
+        }
+
+        .radio-buttons-bottom {
+            margin: 0 5px;
         }
     }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Gold Heart Healing</title>
-    
+
 </head>
+
 <body>
     <header>
         <a href="./index.html">
@@ -23,7 +25,7 @@
                     <a href="./services.html">Services</a>
                 </li>
                 <li>
-                    <a href="./index.html" >Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
             </ul>
         </nav>
@@ -32,8 +34,9 @@
     <form action="./submit.html" method="GET">
 
         <fieldset>
-            <legend>Your details</legend>
-    
+            <legend>Please Enter details</legend>
+            <p>For Free Horoscope Newsletter</p>
+
             <div>
                 <label for="name-field" class="block-label">Name</label>
                 <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
@@ -45,67 +48,79 @@
             <div>
                 <label for="star-sign" class="block-label">What is your star sign?</label>
                 <input id="star-sign" list="signs" name="star-sign" required>
-                    <datalist id="signs">
-                        <option value="Aquarius">
-                        <option value="Pisces">
-                        <option value="Aries">
-                        <option value="Taurus">
-                        <option value="Gemini">
-                        <option value="Cancer">
-                        <option value="Leo">
-                        <option value="Virgo">
-                        <option value="Libra">
-                        <option value="Scorpio">
-                        <option value="Sagittarius">
-                        <option value="Capricorn">
-                    </datalist>
+                <datalist id="signs">
+                    <option value="Aquarius">
+                    <option value="Pisces">
+                    <option value="Aries">
+                    <option value="Taurus">
+                    <option value="Gemini">
+                    <option value="Cancer">
+                    <option value="Leo">
+                    <option value="Virgo">
+                    <option value="Libra">
+                    <option value="Scorpio">
+                    <option value="Sagittarius">
+                    <option value="Capricorn">
+                </datalist>
             </div>
-            
+
             <div class="radio-buttons">
 
-            <p>Which of our services most interests you most?</p>
+                <p>Which of our services most interests you ?</p>
                 <div class="radio-buttons-top">
-                    <input id="reiki-radio" name="services" value="reiki" type="radio" required>
-                    <label for="reiki-radio">Reiki</label>
-        
-                    <input id="crystal-radio" name="services" value="crystal" type="radio" required>
-                    <label for="crystal-radio">Crystal Healing</label>
-        
-                    <input id="iet-radio" name="services" value="iet" type="radio" required>
-                    <label for="iet-radio">Intergrated Energy Therapy</label>
-                 
-                    <input id="eft-radio" name="services" value="eft" type="radio" required>
-                    <label for="eft-radio">EFT</label>
+                    <div>
+                        <input id="reiki-radio" name="services" value="reiki" type="radio" required>
+                        <label for="reiki-radio">Reiki</label>
+                    </div>
+                    <div>
+                        <input id="crystal-radio" name="services" value="crystal" type="radio" required>
+                        <label for="crystal-radio">Crystal Healing</label>
+                    </div>
+                    <div>
+                        <input id="iet-radio" name="services" value="iet" type="radio" required>
+                        <label for="iet-radio">Intergrated Energy Therapy</label>
+                    </div>
+                    <div>
+                        <input id="eft-radio" name="services" value="eft" type="radio" required>
+                        <label for="eft-radio">EFT</label>
+                    </div>
                 </div>
 
-                <div class ="radio-buttons-bottom">     
-                    <input id="feng-radio" name="services" value="feng" type="radio" required>
-                    <label for="feng-radio">Feng Shui</label>
-        
-                    <input id="numerology-radio" name="services" value="numerology" type="radio" required>
-                    <label for="numerology-radio">Numerology</label>
-        
-                    <input id="psychometry-radio" name="services" value="psychometry" type="radio" required>
-                    <label for="psychometry-radio">Psychometry</label>
-        
-                    <input id="oracle-radio" name="services" value="oracle" type="radio" required>
-                    <label for="oracle-radio">Oracle Card Readings</label>
-                    
-                </div>   
+                <div class="radio-buttons-bottom">
+                    <div>
+                        <input id="feng-radio" name="services" value="feng" type="radio" required>
+                        <label for="feng-radio">Feng Shui</label>
+                    </div>
+                    <div>
+
+                        <input id="numerology-radio" name="services" value="numerology" type="radio" required>
+                        <label for="numerology-radio">Numerology</label>
+                    </div>
+                    <div>
+
+                        <input id="psychometry-radio" name="services" value="psychometry" type="radio" required>
+                        <label for="psychometry-radio">Psychometry</label>
+                    </div>
+                    <div>
+                        <input id="oracle-radio" name="services" value="oracle" type="radio" required>
+                        <label for="oracle-radio">Oracle Card Readings</label>
+                    </div>
+
+                </div>
 
             </div>
 
             <h2>Penny for your thoughts</h2>
-                <textarea id="feedback" rows="7" cols="80" name="feedback"></textarea>	
-            
-    
+            <textarea id="feedback" rows="7" cols="80" name="feedback"></textarea>
+
+
         </fieldset>
 
         <input type="submit" class="block-label" value="Send">
-		<input type="reset" value="Reset Form">
+        <input type="reset" value="Reset Form">
 
-        </form>
-    
+    </form>
+
     <footer>
         <div class="contact">
 
@@ -113,23 +128,30 @@
 
         <ul class="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopner" aria-label="Vist our Facebook page (opens in a new tab) "><i class="fab fa-facebook-square"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopner"
+                    aria-label="Vist our Facebook page (opens in a new tab) "><i class="fab fa-facebook-square"></i></a>
             </li>
             <li>
-             <a href="https://twitter.com" target="_blank" rel="noopner" aria-label="Vist our Twitter page (opens in a new tab) "><i class="fab fa-twitter-square"></i></a>
-         </li>
-         <li>
-             <a href="https://www.youtube.com/watch?v=QldIqjy7dvM&ab_channel=AnnetteJones-Topic" target="_blank" rel="noopner" aria-label="Vist our Youtube page (opens in a new tab) "><i class="fab fa-youtube-square"></i></a>
-         </li>
-         <li>
-             <a href="https://www.instagram.com/goldhearthealing/" target="_blank" rel="noopner" aria-label="Vist our Instagram page (opens in a new tab) "><i class="fab fa-instagram-square"></i></a>
-         </li>
+                <a href="https://twitter.com" target="_blank" rel="noopner"
+                    aria-label="Vist our Twitter page (opens in a new tab) "><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=QldIqjy7dvM&ab_channel=AnnetteJones-Topic" target="_blank"
+                    rel="noopner" aria-label="Vist our Youtube page (opens in a new tab) "><i
+                        class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/goldhearthealing/" target="_blank" rel="noopner"
+                    aria-label="Vist our Instagram page (opens in a new tab) "><i
+                        class="fab fa-instagram-square"></i></a>
+            </li>
         </ul>
-    
+
     </footer>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
